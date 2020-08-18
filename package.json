@@ -1,13 +1,13 @@
 {
-  "name": "purchase-options",
+  "name": "game-sidebar",
   "version": "1.0.0",
-  "description": "Purchasing options component",
+  "description": "Game Sidebar component",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "start-dev": "nodemon index.js",
     "build-dev": "webpack -d --watch",
-    "seed": "node -e \"require('./server/database/seed/seed.js').seedDatabase()\"",
+    "build": "webpack -d",
     "test": "jest"
   },
   "repository": {
